@@ -1,0 +1,41 @@
+#wl {
+color:#ff3d3d;
+}
+
+.videotitle {
+color:#ff3d3d;
+}
+
+::selection {
+background:#ff3d3d;
+color:#fff;
+}
+::-moz-selection {
+background:#ff3d3d;
+color:#fff;
+}
+
+::-webkit-selection {
+background:#ff3d3d;
+color:#fff;
+}
+
+::-khtml-selection {
+background:#ff3d3d;
+color:#fff;
+}::selection {
+background:#ff3d3d;
+}
+
+a:hover {
+color:#ff3d3d;
+}
+
+input[type="submit"]:hover,button:hover {
+border:solid 1px #ff3d3d;
+color:#ff3d3d;
+}
+
+input[type="text"]:hover,input[type="password"]:hover,select:hover {
+border:solid 1px #ff3d3d;
+}

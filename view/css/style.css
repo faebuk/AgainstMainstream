@@ -1,0 +1,407 @@
+@import url(http://fonts.googleapis.com/css?family=Signika);
+
+.passwordchange{
+	display: none;
+}
+
+/* 404 error page*/
+.page404{
+	color: #fd971f;
+	font-size: 5em;
+	margin-bottom: -47px;
+}
+/* H2 of error page*/
+.page404h2{
+	color: #fd971f;
+	font-size: 3em;
+	margin-bottom: -47px;
+}
+/*h22 of 404 error page*/
+.page404h22{
+	margin-bottom: -43px;
+	color: #fd971f;
+	font-size: 3em;
+	margin-bottom: -47px;
+}
+/*2 of 404 error page*/
+.page4042{
+	color: #ff3d3d;
+	font-size: 5em;
+	margin-bottom: -47px;
+}
+
+.errors{
+	height: 500px;
+}
+
+::selection {
+background:#fd971f;
+color:#fff;
+}
+::-moz-selection {
+background:#fd971f;
+color:#fff;
+}
+
+::-webkit-selection {
+background:#fd971f;
+color:#fff;
+}
+
+::-khtml-selection {
+background:#fd971f;
+color:#fff;
+}
+
+/*Links*/
+a {
+text-decoration:none;
+color:rgb(100,100,100);
+}
+/*Link hover*/
+a:hover {
+color:#fd971f;
+}
+
+/*body Tag*/
+body {
+background-image:url(/view/images/background.png);
+background-repeat:repeat;
+}
+
+/*Different headings */
+h1,h2,h3,h4,h5,h6,td,label {
+color:#fff;
+}
+
+/*header*/
+header {
+text-align:center;
+}
+
+/* No image border*/
+img {
+border:0;
+}
+
+/*Standart button*/
+input[type="submit"],button {
+border:solid 1px #ccc;
+font-size:1.2em;
+text-transform:uppercase;
+font-weight:700;
+color:#333;
+cursor:pointer;
+padding:3px 30px;
+}
+
+/*Standart button hover*/
+input[type="submit"]:hover,button:hover {
+border:solid 1px #fd971f;
+color:#fd971f;
+}
+
+/*Standart Password and Text input*/
+input[type="text"],input[type="password"] {
+font-size:1.3em;
+color:#aaa;
+border:solid 1px #ccc;
+width:345px;
+background:#424242;
+-moz-box-shadow:inset 0 0 10px rgba(0,0,0,0.79);
+-webkit-box-shadow:inset 0 0 10px rgba(0,0,0,0.79);
+box-shadow:inset 0 0 10px rgba(0,0,0,0.79);
+padding:3px;
+}
+
+
+input[type="text"].ds {
+width:22px;
+}
+
+input[type="text"].vs {
+width:85px;
+}
+/* Hover for Input*/
+input[type="text"]:hover,input[type="password"]:hover,select:hover {
+border:solid 1px #fd971f;
+}
+
+/*No list styles*/
+li {
+list-style:none;
+}
+
+/*Navigation*/
+nav {
+width:15%;
+float:left;
+}
+
+/*p tag*/ 
+p {
+color:#fff;
+margin:3px 0px 3px 0px;
+}
+span {
+	color: #fff;
+}
+/*Select input*/
+select {
+font-size:1.3em;
+color:#aaa;
+border:solid 1px #ccc;
+width:268px;
+height:34px;
+-webkit-appearance:none;
+overflow:hidden;
+background:url(/view/images/arrow.jpg) no-repeat right #424242;
+padding:5px;
+}
+
+/*Table head*/
+th {
+color:#fff;
+font-weight:700;
+}
+
+/*More button*/
+#morebutton {
+	margin-top: 30px;
+}
+
+/*Admin Table*/
+#admintabelle {
+width:45px;
+height:28px;
+background:url(/view/images/dropdownarrow.png) no-repeat right center;
+border:none;
+font-size:16px;
+margin:5px;
+}
+
+/*Container*/
+#container {
+width:1024px;
+margin:0 auto;
+}
+
+/*Content*/
+#content {
+width:85%;
+float:right;
+}
+
+/* Pictures left navigation with hover*/
+#dubstep {
+background-image:url(/view/images/dubstep.png);
+}
+
+#dubstep,#house,#electro,#reggae,#hip-hop,#rock,#metal,#pop {
+width:95px;
+height:100px;
+}
+
+#dubstep:hover {
+background-image:url(/view/images/dubstephover.png);
+}
+
+#electro {
+background-image:url(/view/images/electro.png);
+}
+
+#electro:hover {
+background-image:url(/view/images/electrohover.png);
+}
+
+#hip-hop {
+background-image:url(/view/images/hip-hop.png);
+}
+
+#hip-hop:hover {
+background-image:url(/view/images/hip-hophover.png);
+}
+
+#house {
+background-image:url(/view/images/house.png);
+}
+
+#house:hover {
+background-image:url(/view/images/househover.png);
+}
+
+#login {
+background:#424242;
+}
+
+#logo {
+border:none;
+}
+
+#logregli {
+display:inline;
+}
+
+#metal {
+background-image:url(/view/images/metal.png);
+}
+
+#metal:hover {
+background-image:url(/view/images/metalhover.png);
+}
+
+#pop {
+background-image:url(/view/images/pop.png);
+}
+
+#pop:hover {
+background-image:url(/view/images/pophover.png);
+}
+
+#reggae {
+background-image:url(/view/images/reggae.png);
+}
+
+#reggae:hover {
+background-image:url(/view/images/reggaehover.png);
+}
+
+#rock {
+background-image:url(/view/images/rock.png);
+}
+
+#rock:hover {
+background-image:url(/view/images/rockhover.png);
+}
+
+/*Userhome form*/
+#usernamechange,#emailchange,#passwordchange,#submitform {
+display:none;
+}
+
+#wl {
+text-align:center;
+color:#fd971f;
+}
+
+/*Standart Text*/
+* {
+font-family:Signika, sans-serif;
+font-weight:400;
+}
+
+/*anav hover*/
+.anav:hover {
+border:none;
+border-radius:0;
+}
+
+/*Clear*/
+.clear {
+clear:both;
+}
+
+/*Comment*/
+.comment {
+width:100%;
+max-width:840px;
+min-width:840px;
+max-height:150px;
+}
+
+/*Failed site*/
+.failed {
+background:rgba(244,222,222,.2);
+border:1px solid #d79494;
+color:#984747;
+}
+
+/* failed and success site*/
+.failed,.success {
+margin-top:10px;
+margin-bottom:20px;
+width:auto;
+font-size:11pt;
+padding:20px 15px 20px 60px;
+}
+
+
+.inputd {
+width:300px;
+}
+
+/* Image of postet Video*/
+.postimg {
+width:100%;
+}
+
+/*Video Deatils*/
+.showcomment,.videodetails,.videosec {
+background-color:rgba(78,78,78,.3);
+margin-bottom:30px;
+margin-top:30px;
+border:1px solid #212121;
+box-shadow:0 0 20px rgb(22,22,22);
+padding:9px;
+}
+
+/*Success frame*/
+.success {
+background:rgba(227,244,222,.2);
+border:1px solid #a4d794;
+color:#599847;
+}
+
+/*Comment*/
+.video,.singlecomment {
+-moz-border-image:url(/view/images/borderbottom.png) 0 0 38;
+-webkit-border-image:url(/view/images/borderbottom.png) 0 0 38;
+-o-border-image:url(/view/images/borderbottom.png) 0 0 38;
+border-image:url(/view/images/borderbottom.png) 0 0 38;
+width:90%;
+border-style:solid;
+border-width:0 0 6px;
+}
+
+/*Content of Video*/
+.videocontent {
+padding-left:25px;
+}
+
+/*Video Table column*/
+.videotd {
+width:180px;
+padding-right:25px;
+padding-left:25px;
+}
+
+/*Video Title*/
+.videotitle {
+text-shadow:0 0 10px #000000;
+color:#fd971f;
+}
+
+/*Text of Admincenter Table*/
+.admintext{
+	padding: 0 !important;
+	border:none !important;
+	-webkit-box-shadow: none !important;
+	width:auto !important;
+	font-size: 1em !important;
+}
+
+/*Admincenter Select input*/
+.adminselect{
+	font-size: 1em;
+	border:none;
+	width: auto;
+	height: auto;
+	background: #424242;
+	padding: 0;
+}
+/*Admincenter submit button*/
+.adminsubmit{
+	font-size: 1em !important;	
+	text-transform: none !important;
+	padding: 0 !important;
+}

@@ -1,0 +1,353 @@
+/*Verschiedene imports für Fonts etc.*/
+@import url(http://fonts.googleapis.com/css?family=Signika);
+
+/*falls markiert wird welche Farben*/
+::selection {
+background: #fd971f;
+color: #fff;
+}
+
+/*zählt für die ganze Websites so lange nicht überschrieben*/
+* {
+	font-family: 'Signika', sans-serif;
+	font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+}
+p{
+	color: #fff;
+	margin: 3px;
+}
+td {
+	color: #fff;
+}
+th {
+	color: #fff;
+	font-weight: bold;
+}
+label {
+	color: #fff;
+}
+body {
+	background-image: url(/view/images/background.png);
+	background-repeat: repeat;
+}
+li{
+	list-style: none;
+	
+}
+header{
+	text-align: center;
+}
+nav{
+	width: 15%;
+	float: left;
+}
+a{
+	text-decoration: none;
+	color: rgb(100,100,100);
+}
+a:hover{
+	color:#fd971f;
+	/*border:solid 1px #fd971f;
+	border-radius: 3px;*/
+}
+img{
+	border: 0px;
+}
+
+input[type="text"]{
+	padding:3px; 
+	font-size:1.3em; 
+	color:#aaa; 
+	border:solid 1px #ccc; 
+	width: 345px;
+	background: #424242;
+	-moz-box-shadow:    inset 0 0 10px rgba(0, 0, 0, 0.79);
+	-webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.79);
+	box-shadow:         inset 0 0 10px rgba(0, 0, 0, 0.79);
+}
+
+input[type="text"]:hover{
+	border:solid 1px #fd971f;
+}
+
+input[type="password"]{
+	padding:3px; 
+	font-size:1.3em; 
+	color:#aaa; 
+	border:solid 1px #ccc; 
+	width: 345px;
+	background: #424242;
+	-moz-box-shadow:    inset 0 0 10px rgba(0, 0, 0, 0.79);
+	-webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.79);
+	box-shadow:         inset 0 0 10px rgba(0, 0, 0, 0.79);
+}
+
+input[type="password"]:hover{
+	border:solid 1px #fd971f; 
+}
+
+input[type="submit"] {
+	border:solid 1px #ccc; 
+	padding:3px 30px; 
+	font-size:1.2em;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#333;
+	cursor:pointer;
+	
+}
+input[type="submit"]:hover {
+	border:solid 1px #fd971f; 
+	color:#fd971f;
+}
+
+button {
+	border:solid 1px #ccc; 
+	padding:3px 30px; 
+	font-size:1.2em;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#333;
+	cursor:pointer;
+	
+}
+button:hover {
+	border:solid 1px #fd971f; 
+	color:#fd971f;
+}
+
+select{
+	font-size: 1.3em;
+	color: #aaa;
+	border:solid 1px #ccc; 
+	background: transparent;
+	width: 268px;
+	padding: 5px;
+	height: 34px;
+	-webkit-appearance: none;
+	overflow: hidden;
+	background: url(/view/images/arrow.jpg) no-repeat right #424242;
+}
+
+select:hover{
+	border:solid 1px #fd971f;
+}
+.success{
+	background: rgba(227,244,222,.2);
+	border: 1px solid #a4d794;
+	color: #599847;
+	padding: 20px 15px 20px 60px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: auto;
+	font-size: 11pt;
+}
+.failed{
+	background: rgba(244, 222, 222,.2);
+	border: 1px solid #d79494;
+	color: #984747;
+	padding: 20px 15px 20px 60px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: auto;
+	font-size: 11pt;
+}
+.inputd {
+	width:300px;
+}
+
+.videotitle{
+	/**
+	Schatten gegen innen
+	text-shadow: 0px -1px 0px #000000; 
+	**/
+	text-shadow: 0px 0px 10px #000000; 
+	color: #fd971f;
+}
+.video{
+	border-style: solid;
+	border-width: 0px 0px 6px;
+	-moz-border-image: url(/view/images/borderbottom.png) 0 0 38;
+	-webkit-border-image: url(/view/images/borderbottom.png) 0 0 38 ;
+	-o-border-image: url(/view/images/borderbottom.png) 0 0 38 ;
+	border-image: url(/view/images/borderbottom.png) 0 0 38;
+	width: 90%;
+}
+.videosec{
+	background-color: rgba(78, 78, 78, .3); 
+	padding: 9px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border: 1px solid #212121;
+ 	box-shadow: 0px 0px 20px rgb(22, 22, 22);
+}
+.videodetails{
+	background-color: rgba(78, 78, 78, .3); 
+	padding: 9px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border: 1px solid #212121;
+ 	box-shadow: 0px 0px 20px rgb(22, 22, 22);
+}
+.showcomment{
+	background-color: rgba(78, 78, 78, .3); 
+	padding: 9px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border: 1px solid #212121;
+ 	box-shadow: 0px 0px 20px rgb(22, 22, 22);
+}
+.singlecomment{
+	border-style: solid;
+	border-width: 0px 0px 6px;
+	-moz-border-image: url(/view/images/borderbottom.png) 0 0 38;
+	-webkit-border-image: url(/view/images/borderbottom.png) 0 0 38 ;
+	-o-border-image: url(/view/images/borderbottom.png) 0 0 38 ;
+	border-image: url(/view/images/borderbottom.png) 0 0 38;
+	width: 90%;
+}
+.videotd {
+	width: 180px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.videocontent{
+	padding-left: 25px;
+}
+.postimg{
+	width: 100%;
+}
+.clear{
+	clear: both;
+}
+.anav:hover{
+	border: none;
+	border-radius: 0px;
+}
+.comment{
+	width: 100%;
+	max-width: 840px;
+	min-width: 840px;
+	max-height: 150px;
+}
+input[type="text"].vs{
+	width: 85px;
+}
+input[type="text"].ts{
+}
+input[type="text"].ds{
+	width: 22px;
+}
+
+input[type="text"].vs{
+	width: 85px;
+}
+#usernamechange, #emailchange, #passwordchange{
+	display: none;
+}
+#submitform{
+	display: none;
+}
+#wl{
+	text-align: center;
+	color: #fd971f; 
+}
+#logo{
+	border: none;
+}
+#suche{
+	/**text-align: center;**/
+	
+}
+#logregli{
+	display: inline;
+}
+#login{
+		background: #424242;
+}
+#content{
+	width: 85%;
+	float: right;
+}
+#container{
+	/*background: rgba(0, 0, 0, .1);*/
+	width: 1024px;
+	margin: 0 auto;
+}
+#admintabelle{
+	width: 45px;
+	height: 28px;
+	margin: 5px;
+	background: url(/view/images/dropdownarrow.png) no-repeat right center;
+	border: none;
+	font-size: 16px;
+	
+}
+#dubstep{
+	background-image: url(/view/images/dubstep.png);
+	background-size: auto;
+	width: 95px;
+	height: 100px;
+}
+#dubstep:hover{
+	background-image: url(/view/images/dubstephover.png);
+}
+#electro{
+	background-image: url(/view/images/electro.png);
+	width: 95px;
+	height: 100px;
+}
+#electro:hover{
+	background-image: url(/view/images/electrohover.png);
+}
+#house{
+	background-image: url(/view/images/house.png);
+	width: 95px;
+	height: 100px;
+}
+#house:hover{
+	background-image: url(/view/images/househover.png);
+}
+#reggae{
+	background-image: url(/view/images/reggae.png);
+	width: 95px;
+	height: 100px;
+}
+#reggae:hover{
+	background-image: url(/view/images/reggaehover.png);
+}
+#hip-hop{
+	background-image: url(/view/images/hip-hop.png);
+	width: 95px;
+	height: 100px;
+}
+#hip-hop:hover{
+	background-image: url(/view/images/hip-hophover.png);
+}
+#pop{
+	background-image: url(/view/images/pop.png);
+	width: 95px;
+	height: 100px;
+}
+#pop:hover{
+	background-image: url(/view/images/pophover.png);
+}
+#rock{
+	background-image: url(/view/images/rock.png);
+	width: 95px;
+	height: 100px;;
+}
+#rock:hover{
+	background-image: url(/view/images/rockhover.png);
+}
+#metal{
+	background-image: url(/view/images/metal.png);
+	width: 95px;
+	height: 100px;
+}
+#metal:hover{
+	background-image: url(/view/images/metalhover.png);
+}
